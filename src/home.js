@@ -1,17 +1,30 @@
+import ichirakuImage from "./ichirakuramen.jpg" 
+
 export function home(divContent) {
   divContent.innerHTML = ''
 
   const divWelcome = document.createElement("div")
   const divMessage = document.createElement("div")
   const divName = document.createElement("div")
+  const divText = document.createElement("div")
 
   divWelcome.classList.add("decoration")
+  divText.classList.add("text")
   
   divMessage.textContent = `Welcome to Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
+
+  const imgIchirakuRamen = document.createElement("img")
+  imgIchirakuRamen.src = ichirakuImage
+  imgIchirakuRamen.alt = "Ichiraku Ramen"
+
+  divText.textContent = `Discover the authentic flavor of ramen made with care in Konoha.  
+Come try our traditional dishes and feel right at home!`
   
-  divWelcome.appendChild(divMessage)
   divWelcome.appendChild(divName)
+  divWelcome.appendChild(divMessage)
+  divWelcome.appendChild(imgIchirakuRamen)
+  divWelcome.appendChild(divText)
 
   divContent.appendChild(divWelcome)
 } 

@@ -4,6 +4,8 @@ export function about(divContent) {
   const divWelcome = document.createElement("div")
   const divMessage = document.createElement("div")
   const divName = document.createElement("div")
+
+  divWelcome.classList.add("decoration")
   
   divMessage.textContent = `About Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
