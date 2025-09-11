@@ -21,5 +21,32 @@ button {
 }
 
 button:hover {
+  cursor: pointer;
   background: whitesmoke;
 }
+
+div#content {
+  padding: 2rem;
+}
+
+#content div {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: white;
+  border: 5px solid brown;
+}
+
+/* .thumbnail_box,.naruto_shinobizato_food .restaurant-thumb {
+    mask-image: radial-gradient(circle at 0% 0%,transparent 15px,#333 0) , radial-gradient(circle at 100% 0%,transparent 15px,#333 0) , radial-gradient(circle at 0% 100%,transparent 15px,#333 0) , radial-gradient(circle at 100% 100%,transparent 15px,#333 0);
+    -webkit-mask-image: radial-gradient(circle at 0% 0%,transparent 15px,#333 0) , radial-gradient(circle at 100% 0%,transparent 15px,#333 0) , radial-gradient(circle at 0% 100%,transparent 15px,#333 0) , radial-gradient(circle at 100% 100%,transparent 15px,#333 0);
+    mask-position: 0% 0% , 100% 0% , 0% 100% , 100% 100%;
+    -webkit-mask-position: 0% 0% , 100% 0% , 0% 100% , 100% 100%;
+    mask-size: 55% 55%;
+    -webkit-mask-size: 55% 55%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background: #ba1617;
+    padding: 3px;
+    width: 100%;
+    height: 200px
+} */
