@@ -1,4 +1,4 @@
-import ichirakuImage from "./ichirakuramen.jpg" 
+import ichirakuImage from "./ichirakuramen.jpg"
 
 export function home(divContent) {
   divContent.innerHTML = ''
@@ -11,7 +11,7 @@ export function home(divContent) {
   divWelcome.classList.add("decoration")
   divMessage.classList.add("welcome")
   divText.classList.add("text")
-  
+
   divMessage.textContent = `Welcome to Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
 
@@ -19,8 +19,8 @@ export function home(divContent) {
   imgIchirakuRamen.src = ichirakuImage
   imgIchirakuRamen.alt = "Ichiraku Ramen"
 
-  divText.textContent = `Yo! If you haven’t tried Ichiraku Ramen yet, what are you even doin’ with your life?! After missions, training, or just hangin’ out—it’s my number one spot, believe it! The noodles are crazy good, the broth hits like a Rasengan to the soul. It’s not just food—it’s like, a whole experience, y’know? So quit standin’ around and come chow down with me! I’ll even race ya there! Last one to finish their bowl’s a rotten kunai—Dattebayo!`
-  
+  divText.textContent = `Yo! Haven't tried Ichiraku Ramen yet?! It's amazing! Believe it! It hits like a Rasengan! —Dattebayo!`
+
   divWelcome.appendChild(divName)
   divWelcome.appendChild(divMessage)
   divWelcome.appendChild(imgIchirakuRamen)
