@@ -21,9 +21,17 @@ export function menu(divContent) {
   const imgRamenMisoTonkotsuSoup = document.createElement("img")
   imgRamenMisoTonkotsuSoup.src = ichirakuRamenWithMisoTonkotsuSoup
   imgRamenMisoTonkotsuSoup.alt = "Ichiraku Ramen With Miso Tonkotsu Soup"
+
+  const description = document.createElement("p")
+  description.textContent = "The most popular ramen dish at this yatai offers a milder soup than a regular tonkotsu soup due to the addition of miso."
+
+  const buttonPrice = document.createElement("button")
+  buttonPrice.textContent = "Price: JP¥1210"
+  description.appendChild(buttonPrice)
   
   divMenu.appendChild(divDishName)
   divMenu.appendChild(imgRamenMisoTonkotsuSoup)
+  divMenu.appendChild(description)
 
   divContent.appendChild(divMenu)
 } 

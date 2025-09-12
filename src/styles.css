@@ -24,9 +24,31 @@ button {
   border-bottom: 4px solid brown;
 }
 
-button:hover {
+nav button:hover {
   color: brown;
   cursor: pointer;
+}
+
+p {
+  display: flex;
+  font-size: 1.5rem;
+  text-align: start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+p button {
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  background: brown;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border: 3px solid black;
+}
+
+p button:hover {
+  background: green;
 }
 
 div#content {
@@ -63,5 +85,6 @@ div.welcome {
 }
 
 div.text {
+  margin-top: 0.5rem;
   font-size: 1.5rem;
 }
