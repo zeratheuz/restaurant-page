@@ -9,6 +9,7 @@ export function home(divContent) {
   const divText = document.createElement("div")
 
   divWelcome.classList.add("decoration")
+  divMessage.classList.add("welcome")
   divText.classList.add("text")
   
   divMessage.textContent = `Welcome to Ichiraku Ramen!`
@@ -18,8 +19,7 @@ export function home(divContent) {
   imgIchirakuRamen.src = ichirakuImage
   imgIchirakuRamen.alt = "Ichiraku Ramen"
 
-  divText.textContent = `Discover the authentic flavor of ramen made with care in Konoha.  
-Come try our traditional dishes and feel right at home!`
+  divText.textContent = `Yo! If you haven’t tried Ichiraku Ramen yet, what are you even doin’ with your life?! After missions, training, or just hangin’ out—it’s my number one spot, believe it! The noodles are crazy good, the broth hits like a Rasengan to the soul. It’s not just food—it’s like, a whole experience, y’know? So quit standin’ around and come chow down with me! I’ll even race ya there! Last one to finish their bowl’s a rotten kunai—Dattebayo!`
   
   divWelcome.appendChild(divName)
   divWelcome.appendChild(divMessage)
