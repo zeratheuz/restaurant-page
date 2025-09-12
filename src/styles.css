@@ -14,12 +14,12 @@ nav {
 
 button {
   flex: 1;
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   background: bisque;
-  border: 5px solid brown;
+  border: 4px solid brown;
 }
 
 button:hover {
@@ -28,32 +28,29 @@ button:hover {
 }
 
 div#content {
-  margin: 2rem auto;
-  padding: 0.5rem;
+  height: 85vh;
+  margin: auto;
   display: flex;
-  background: bisque;
-  flex-direction: column;
-  justify-content: center;
-  border: 5px solid brown;
-  max-width: fit-content;
-}
-
-#content div {
+  padding: 0.5rem;
   font-weight: bold;
   text-align: center;
+  max-width: fit-content;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .decoration {
-  gap: 1rem;
+  gap: 10px;
+  margin: auto;
   padding: 1rem;
   display: flex;
-  max-width: 800px;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  max-width: 600px;
   width: fit-content;
   align-items: center;
+  background: bisque;
   flex-direction: column;
-  border: 5px solid brown;
-  margin: auto;
+  border: 4px solid brown;
 }
 
 .decoration img {
