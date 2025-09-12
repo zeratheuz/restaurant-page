@@ -1,3 +1,4 @@
+import ichirakuRamenWithMisoTonkotsuSoup from "src/IchirakuRamenwithMisoTonkotsuSoup.webp"
 export function menu(divContent) {
   divContent.innerHTML = ''
 
@@ -7,11 +8,15 @@ export function menu(divContent) {
 
   divWelcome.classList.add("decoration")
   
-  divMessage.textContent = `Menu of Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
+  divMessage.textContent = `Menu:`
+
+  const imgRamenMisoTonkotsuSoup = document.createElement("img")
+  imgRamenMisoTonkotsuSoup.src = ichirakuRamenWithMisoTonkotsuSoup
+  imgRamenMisoTonkotsuSoup.alt = "Ichiraku Ramen With Miso Tonkotsu Soup"
   
-  divWelcome.appendChild(divMessage)
   divWelcome.appendChild(divName)
+  divWelcome.appendChild(divMessage)
 
   divContent.appendChild(divWelcome)
 } 
