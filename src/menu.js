@@ -17,36 +17,44 @@ export function menu(divContent) {
 
   divContent.appendChild(divMenu)
 
-  const divDish = document.createElement("div")
+  class Dish {
+    constructor({name, imgSrc, imgAlt, description, price}) {
+      this.name = name
+      this.imgSrc = imgSrc
+      this.imgAlt = imgAlt
+      this.description = description
+      this.price = price
+    }
 
-  const divDishName = document.createElement("div")
-  divDishName.classList.add("text")
-  divDishName.textContent = "Ichiraku Ramen with Miso Tonkotsu Soup:"
+    create() {
+      const divDish = document.createElement("div")
 
-  const imgRamenMisoTonkotsuSoup = document.createElement("img")
-  imgRamenMisoTonkotsuSoup.src = ichirakuRamenWithMisoTonkotsuSoup
-  imgRamenMisoTonkotsuSoup.alt = "Ichiraku Ramen With Miso Tonkotsu Soup"
+      const divDishName = document.createElement("div")
+      divDishName.classList.add("text")
+      divDishName.textContent = this.name
 
-  const description = document.createElement("p")
-  description.textContent = "The most popular ramen dish at this yatai offers a milder soup than a regular tonkotsu soup due to the addition of miso."
+      const imgRamenMisoTonkotsuSoup = document.createElement("img")
+      imgRamenMisoTonkotsuSoup.src = ichirakuRamenWithMisoTonkotsuSoup
+      imgRamenMisoTonkotsuSoup.alt = this.alt
 
-  const buttonPrice = document.createElement("button")
-  buttonPrice.textContent = "Price: JP¥1210"
-  description.appendChild(buttonPrice)
+      const description = document.createElement("p")
+      description.textContent = this.description
 
-  divDish.appendChild(divDishName)
-  divDish.appendChild(imgRamenMisoTonkotsuSoup)
-  divDish.appendChild(description)
+      const buttonPrice = document.createElement("button")
+      buttonPrice.textContent = this.price
+      description.appendChild(buttonPrice)
+
+      divDish.appendChild(divDishName)
+      divDish.appendChild(imgRamenMisoTonkotsuSoup)
+      divDish.appendChild(description)
+
+      return divDish
+    }
+  }
+
+  function addDishes(dishes) {
+    
+  }
 
   divMenu.appendChild(divDish)
-} 
-
-class Dish {
-  constructor(name, imgSrc, imgAlt, description, price) {
-    this.name = name
-    this.imgSrc = imgSrc
-    this.imgAlt = imgAlt
-    this.description = description
-    this.price = price
-  }
 }
