@@ -9,7 +9,7 @@ export function home(divContent) {
   const divText = document.createElement("div")
 
   divWelcome.classList.add("decoration")
-  divMessage.classList.add("welcome")
+  divMessage.classList.add("title")
   divText.classList.add("text")
 
   divMessage.textContent = `Welcome to Ichiraku Ramen!`

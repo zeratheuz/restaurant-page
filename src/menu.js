@@ -7,13 +7,18 @@ export function menu(divContent) {
   const divName = document.createElement("div")
 
   divMenu.classList.add("decoration")
-  
+  divMessage.classList.add("title")
+
   divName.textContent = `一楽ラーメン`
   divMessage.textContent = `Menu:`
 
   divMenu.appendChild(divName)
   divMenu.appendChild(divMessage)
-  
+
+  divContent.appendChild(divMenu)
+
+  const divDish = document.createElement("div")
+
   const divDishName = document.createElement("div")
   divDishName.classList.add("text")
   divDishName.textContent = "Ichiraku Ramen with Miso Tonkotsu Soup:"
@@ -23,15 +28,15 @@ export function menu(divContent) {
   imgRamenMisoTonkotsuSoup.alt = "Ichiraku Ramen With Miso Tonkotsu Soup"
 
   const description = document.createElement("p")
-  description.textContent = "The most popular ramen dish at this yatai offers a milder soup than a regular tonkotsu soup due to the addition of miso."
+  description.textContent += "The most popular ramen dish at this yatai offers a milder soup than a regular tonkotsu soup due to the addition of miso."
 
   const buttonPrice = document.createElement("button")
   buttonPrice.textContent = "Price: JP¥1210"
   description.appendChild(buttonPrice)
-  
-  divMenu.appendChild(divDishName)
-  divMenu.appendChild(imgRamenMisoTonkotsuSoup)
-  divMenu.appendChild(description)
 
-  divContent.appendChild(divMenu)
+  divDish.appendChild(divDishName)
+  divDish.appendChild(imgRamenMisoTonkotsuSoup)
+  divDish.appendChild(description)
+
+  divMenu.appendChild(divDish)
 } 
