@@ -43,14 +43,14 @@ export function menu(divContent) {
       name: "Akatsuki Ramen:",
       imgSrc: akatsukiRamen,
       imgAlt: "Akatsuki Ramen",
-      description: "An original Ichiraku Ramen dish only served at Nijigen no Mori. This ramen belongs to Akatsuki, an organization appearing in the NARUTO anime, wearing an outfit designed with a red cloud on a black background. This bowl of ramen depicts this color combination with two kinds of chili oil and nori seaweed. Akatsuki fans cannot miss this! Half-boiled egg (one): 110 yen. Thick pieces of roast pork (three): 275 yen. Nori seaweed with Uzumaki design (three): 110 yen.",
+      description: "An original Ichiraku Ramen dish only served at Nijigen no Mori. This ramen belongs to Akatsuki, an organization appearing in the NARUTO anime, wearing an outfit designed with a red cloud on a black background. This bowl of ramen depicts this color combination with two kinds of chili oil and nori seaweed. Akatsuki fans cannot miss this!",
       price: "Price: JP¥1265"
     },
     {
       name: "Takoyaki Tamago Makimono (Takoyaki Egg Scroll):",
       imgSrc: takoyakiTamagoMakimono,
       imgAlt: "Takoyaki Tamago Makimono (Takoyaki Egg Scroll)",
-      description: "Nestled deep within Nijigen no Mori's forest, this restaurant offers delicious meals made with locally sourced ingredients from Awaji Island. You'll also find a variety of dishes from the world of NARUTO. As a special bonus, every NARUTO-themed dish comes with a collectible coaster featuring an anime character for you to take home! Located conveniently near the NARUTO & BORUTO SHINOBI-ZATO theme park, it's the perfect spot to stop by after exploring.",
+      description: "Nestled deep within Nijigen no Mori's forest, this restaurant offers delicious meals made with locally sourced ingredients from Awaji Island. You'll also find a variety of dishes from the world of NARUTO. As a special bonus, every NARUTO-themed dish comes with a collectible coaster featuring an anime character for you to take home!",
       price: "Price: JP¥880"
     },
     {
