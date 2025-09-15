@@ -23,8 +23,7 @@ export function about(divContent) {
 
   imgIchirakuRamen.src = ichirakuRamenTeuchi
   imgIchirakuRamen.alt = "Ichiraku Ramen Teuchi"
-  divText.textContent = `Founded decades ago, Ichiraku Ramen is the meeting spot for ramen lovers in Konoha.  
-With a secret recipe passed down through generations, our ramen brings flavor and tradition in every bowl.`
+  divText.textContent = `Serving Konoha since before the Third Shinobi War! Famous for rich flavor, an amazing secret broth and being Naruto Uzumaki's favorite spot.`
 
   divWelcome.appendChild(imgIchirakuRamen)
   divWelcome.appendChild(divText)
