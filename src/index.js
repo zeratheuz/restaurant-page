@@ -11,8 +11,8 @@ const aboutButton = document.querySelector("#about")
 homeButton.addEventListener("click", () => home(divContent))
 
 menuButton.addEventListener("click", () => menu(divContent))
-menuButton.click()
 
 aboutButton.addEventListener("click", () => about(divContent))
+aboutButton.click()
 
 console.log("Welcome to 一楽ラーメン")

@@ -1,4 +1,4 @@
-import ichirakuImage from "./ichirakuramen.jpg"
+import ichirakuImage from "./images/ichirakuramen.jpg"
 
 export function home(divContent) {
   divContent.innerHTML = ''

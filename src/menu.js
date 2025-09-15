@@ -1,10 +1,10 @@
-import ichirakuRamenWithMisoTonkotsuSoup from "./ichirakuRamenwithMisoTonkotsuSoup.webp"
-import ichirakuRamenTonkotsuSoup from "./ichirakuRamenTonkotsuSoup.webp"
-import akatsukiRamen from "./akatsukiRamen.png"
-import takoyakiTamagoMakimono from "./takoyakiTamagoMakimono.webp"
-import setSasukeFavorites from "./setSasukeFavorites.png"
-import borutoLightningHamburger from "./borutoLightningHamburger.webp"
-import mitsukiRamuneIceCream from "./mitsukiRamuneIceCream.png"
+import ichirakuRamenWithMisoTonkotsuSoup from "./images/ichirakuRamenwithMisoTonkotsuSoup.webp"
+import ichirakuRamenTonkotsuSoup from "./images/ichirakuRamenTonkotsuSoup.webp"
+import akatsukiRamen from "./images/akatsukiRamen.png"
+import takoyakiTamagoMakimono from "./images/takoyakiTamagoMakimono.webp"
+import setSasukeFavorites from "./images/setSasukeFavorites.png"
+import borutoLightningHamburger from "./images/borutoLightningHamburger.webp"
+import mitsukiRamuneIceCream from "./images/mitsukiRamuneIceCream.png"
 
 export function menu(divContent) {
   divContent.innerHTML = ''

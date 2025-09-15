@@ -1,3 +1,5 @@
+import ichirakuRamenTeuchi from "./images/ichirakuRamenTeuchi.jpg"
+
 export function about(divContent) {
   divContent.innerHTML = ''
 
@@ -10,8 +12,8 @@ export function about(divContent) {
   divMessage.textContent = `About Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
   
-  divWelcome.appendChild(divMessage)
   divWelcome.appendChild(divName)
+  divWelcome.appendChild(divMessage)
 
   divContent.appendChild(divWelcome)
 } 
