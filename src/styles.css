@@ -67,10 +67,19 @@ div#content {
   justify-content: center;
 }
 
+div.title {
+  color: brown;
+}
+
+div.text {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
 .decoration {
   gap: 0.5rem;
   margin: auto;
-  padding: 1rem;
+  padding: 1rem 6vw;
   display: flex;
   font-size: 2rem;
   max-width: 700px;
@@ -85,13 +94,8 @@ div#content {
   width: 100%;
 }
 
-div.title {
-  color: brown;
-}
-
-div.text {
-  margin-top: 0.5rem;
-  font-size: 1.5rem;
+.dish {
+  margin-bottom: 1rem;
 }
 
 .dish img {

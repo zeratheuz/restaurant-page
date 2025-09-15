@@ -10,6 +10,7 @@ export function about(divContent) {
   divWelcome.classList.add("decoration")
   divMessage.classList.add("title")
 
+
   divMessage.textContent = `About Ichiraku Ramen!`
   divName.textContent = `一楽ラーメン`
 
@@ -18,6 +19,7 @@ export function about(divContent) {
 
   const imgIchirakuRamen = document.createElement("img")
   const divText = document.createElement("div")
+  divText.classList.add("text")
 
   imgIchirakuRamen.src = ichirakuRamenTeuchi
   imgIchirakuRamen.alt = "Ichiraku Ramen Teuchi"

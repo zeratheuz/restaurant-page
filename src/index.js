@@ -9,10 +9,10 @@ const menuButton = document.querySelector("#menu")
 const aboutButton = document.querySelector("#about")
 
 homeButton.addEventListener("click", () => home(divContent))
+homeButton.click()
 
 menuButton.addEventListener("click", () => menu(divContent))
 
 aboutButton.addEventListener("click", () => about(divContent))
-aboutButton.click()
 
 console.log("Welcome to 一楽ラーメン")
